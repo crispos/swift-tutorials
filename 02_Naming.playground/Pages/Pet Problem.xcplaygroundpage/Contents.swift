@@ -6,19 +6,23 @@
 //:
 //: Using what you know so far, you could keep track of the count for each animal using a comment and a number, like this:
 // Number Of Dogs
-5
+6
 
 // Number Of Cats
 4
 
 // Number Of Turtles
-3
+2
+// New number of turtles
+2
+
 //: Then you could copy those numbers onto new lines of code and let the playground do some math for you, like this:
 // Total Number Of Animals
-5 + 4 + 3
+6 + 4 + 3
 
 // Total Number Of Mammals
-5 + 4
+6 + 5
+// added a hampster
 //: - experiment: As the week goes on, you get more information about what pets will be in the show.\
 //:Change the code above to update the totals.
 //:

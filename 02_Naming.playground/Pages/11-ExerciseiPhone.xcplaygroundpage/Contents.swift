@@ -15,9 +15,8 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
 */
+let videoMinutesToFilliphone = 5000 / 150 
 
 
 
 
-
-//:[Previous](@previous)  |  page 12 of 14  |  [Next: Exercise: Fixing Your Morning](@next)

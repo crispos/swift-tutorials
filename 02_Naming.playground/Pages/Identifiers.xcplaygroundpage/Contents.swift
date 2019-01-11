@@ -5,17 +5,16 @@
 //:
 //:To make it easier to read identifiers with multiple words, every word after the first word should be capitalized. This way of writing out names is called _camel case_, because the capital letters in the middle of the name look a bit like the humps of a camel. 🐫
 let numberOfDogs = 6 + 2
-
+let numberOfPigs = 0 + 1
 let numberOfCats = 5 - 1
-
+let numberOfMammals = 12 + 1
 let numberOfTurtles = 2 + 1
-
+let numberOfNonMammals = 2 + 2
 let numberOfHamsters = 1 + 1
-
+let numberOfsnakes = 0 + 1
+let numberOfFish = 0 + 1
 let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters
-
 let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
-
 //: - experiment: There are even more changes in the pets expected at the pet show.\
 //:To add new kinds of animals, add new lines of code that define new constants. (To add a new line of code just click on a blank line in the area above and start typing.)
 //:
