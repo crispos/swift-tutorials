@@ -46,6 +46,15 @@ thingsIHaveToDo + thingsILikeToDo
  
  Change the numbers until you’ve got a design for your ideal morning. What would have to change in order for you to be able to actually spend your morning time this way?
 */
+shower - 2
+//2 = minutes
+EatBreakfest - 2
+// 2 = minutes
+combHair - 1
+// 1 =  minutes
+// these changes will increase jog time to 35 minutes
+morningJog + 5
+// 5 = minutes
 
 
 
