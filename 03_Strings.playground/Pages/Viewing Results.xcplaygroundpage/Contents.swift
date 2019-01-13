@@ -1,8 +1,8 @@
 //: ## Viewing Playground Results
 //: What if you define a long string in a playground? You’ll notice that the longer string is cut off at the end in the results sidebar. 👉
 //:
-let spelledOutNumber = "six"
-let meal = "breakfast"
+let spelledOutNumber = "seven"
+let meal = "dinner"
 let aliceQuotation = "Why, sometimes I’ve believed as many as \(spelledOutNumber) impossible things before \(meal)!"
 //: In the results sidebar, move the cursor over the line that begins “Why, sometimes I’ve believed…”. When you do, that result will be highlighted and two controls will appear:
 //:

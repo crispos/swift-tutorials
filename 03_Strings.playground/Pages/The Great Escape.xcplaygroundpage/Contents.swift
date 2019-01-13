@@ -5,6 +5,7 @@
 //:
 //: Uncomment the `badString` line of code below to see what happens:
 //let badString = "He said, "Hi there!" as he passed by."
+
 //: You get an error because Swift thinks the string definition is finished at the second quotation mark, just before the `Hi`. Then it doesn’t know how to interpret the rest of the line of code.
 //:
 //: When you’re done exploring, comment the code again, so the error goes away.

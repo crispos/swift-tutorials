@@ -14,6 +14,13 @@
  
  _Hint:_ Do all of your calculations in megabytes.
  */
+let minutesLeft = 33
+"You can record \(minutesLeft) of video"
+
+
+
+
+
 
 
 

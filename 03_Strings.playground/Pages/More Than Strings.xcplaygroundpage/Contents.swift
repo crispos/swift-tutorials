@@ -15,6 +15,12 @@ let goalieReportString = "At the game yesterday, \(goalieName) had \(firstHalfSa
     Sample story: “Today was a big day for <name>. They had finally saved up <number> dollars and were going to buy a <adjective> <noun>. They went to the <noun> <place> feeling very <positive emotion>. But then they felt <negative emotion>. They were all out of <noun>!”
 */
 // Add your version of the story below
+let playerName = "Tom Brady"
+let firstHalfTouchdowns = 3
+let secondHalfTouchdowns = 2
+let playerNameString = "During last weeks game, \(playerName) had \(firstHalfTouchdowns) in the first half, \(secondHalfTouchdowns) in the second half for a big win."
+
+
 
 
 
