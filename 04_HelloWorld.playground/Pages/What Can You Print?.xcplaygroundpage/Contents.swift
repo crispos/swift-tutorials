@@ -33,9 +33,11 @@ Before:\
 After:\
 `print(authorName)`
 */
-authorName
+print(authorName)
+
 "authorName"
 "Did you know that \(bookTitle) was written by \(authorName)?"
+
 
 //:Next, find out a common use for the console. 
 //:
