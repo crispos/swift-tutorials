@@ -18,19 +18,38 @@
 
 let questionWord = "WHY"
 let connectorWord = "but"
-let question = "\(connectorWord) \\(questionWord)?"
+// error is in question constant. need to remove one backslash before parathase
+let question = "\(questionWord) \(questionWord)"
 
-let incessantQuestion = "\(question)\(question)\(question)\(question)"
+
+let incessantQuestion = "\(question) \(question) \(question) \(question)"
 
 let name = "Kim"
-let summons = "\(name) \(name). \(name)!"
+let summons = "\(name) \(name) \(name)!"
 
-let botheration = "\(summons)\(incessantQuestion)"
+let botheration = "\(summons) \(incessantQuestion)"
 
 
 // -------------- 👆 The code that needs fixing is above this line 👆 --------------------
 //: Sadly, this program has a bug. Follow the directions to find and fix the error!
 // -------------- 👇 Add your print statements below this line 👇 --------------------
+print(questionWord)
+print(connectorWord)
+print(question)
+print(incessantQuestion)
+print(summons)
+print(botheration)
+
+let surprisedString = "Hey \(name) seriously \(connectorWord) \(question)"
+
+
+
+
+
+
+
+
+
 
 
 

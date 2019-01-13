@@ -11,7 +11,7 @@
  Open up the results sidebar, then try changing the numbers in the `addToScore()` statements below. What’s the maximum number of points you can reach with no printed warnings?
  */
 
-addToScore(1)
+addToScore(17)
 addToScore(2)
 addToScore(1)
 
