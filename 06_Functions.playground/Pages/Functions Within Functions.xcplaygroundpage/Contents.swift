@@ -34,7 +34,12 @@ func laughingSubmarine() {
 }
 
 // Write the verse two function below
-
+func verseTwo() {
+    laughingSubmarine()
+    
+    print("I got you! I got you!")
+    print ("I'm a sumbmarine!")
+}
 
 //: On the next page, learn about one of the things that can go wrong when using functions of functions.
 //:
