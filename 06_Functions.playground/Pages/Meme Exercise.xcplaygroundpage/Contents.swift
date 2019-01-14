@@ -9,6 +9,20 @@
  
  Write out the song or meme using `print` statements, then look for patterns and repetition and choose groups of lines to combine into functions. This is a free-form exercise, so you can do whatever you like.
 */
+func magnolia() {
+    print("in new york I milly rock")
+    print("hide it in my sock")
+}
+magnolia()
+
+
+
+
+
+
+
+
+
 
 
 
