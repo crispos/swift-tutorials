@@ -17,13 +17,14 @@ score = score + 5
 //: It might seem strangely circular to set a value to equal itself plus something else, as if you're both using a value and changing it in a single step, but that isn't exactly what is happening. Even though it’s a single line of code, Swift evaluates the statement in two different steps.
 //:
 //:The right hand side of the assignment is calculated first, as if it were written on its own in a playground. Just doing a calculation with a variable doesn't change its value, though:
-score + 5
-score
-score + 3
-score
+print(score + 5)
+print(score)
+print(score + 3)
+print(score)
+
 //: But when a calculation is on the right-hand side of an assignment, the variable stores the calculation's result and takes on a brand new value:
-score = score + 5
-score = score + 3
+print(score = score + 5)
+print(score = score + 3)
 /*:
  - experiment: What do you think the value of `score` would be after these lines? Try it and find out!
  
@@ -32,6 +33,9 @@ score = score + 3
  score = score + score
  ```
 */
+print(score = 5)
+print (score = score + score)
+
 
 
 
