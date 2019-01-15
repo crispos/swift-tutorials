@@ -6,11 +6,15 @@
  You create routines in code by building functions like this:
  */
 func doTheDisco() {
+    rightArmUp()
     leftArmUp()
+    shakeItLeft()
     shakeItRight()
+    rightArmDown()
     leftArmDown()
     shakeItCenter()
 }
+
 /*:
  Once you've decided what moves go in the routine, start the robot dancing by calling the function you just made:
  */
@@ -19,6 +23,10 @@ fabulize()
 doTheDisco()
 doTheDisco()
 doTheDisco()
+doTheDisco()
+fabulize()
+
+
 /*:
  Functions are the way programmers group blocks of work together. Recall from the Functions playground that functions help you in these ways:
  

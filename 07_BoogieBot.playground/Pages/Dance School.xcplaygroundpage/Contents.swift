@@ -31,6 +31,7 @@ leftArmUp()
 rightArmUp()
 
 leftLegUp()
+leftArmUp()
 rightLegUp()
 leftLegDown()
 rightLegDown()
@@ -41,7 +42,10 @@ jumpUp()
 jumpDown()
 
 leftArmDown()
-rightArmDown()
+rightLegDown()
+leftArmUp()
+defabulize()
+fabulize()
 defabulize()
 
 //: - experiment: Rearrange the lines of code above to remix the dance routine. BoogieBot performs the moves in the order they appear in the playground.\

@@ -16,8 +16,42 @@
  `setBotTitle("My Awesome Dance")`\
  `setBotSubtitle("By The Boogiemaster")`
 */
-startBot()
-startRecording()
+func botDance() {
+    startBot()
+    startRecording()
+    fabulize()
+    defabulize()
+    fabulize()
+    leftArmDown()
+    leftArmUp()
+    leftArmDown()
+    rightArmUp()
+    rightArmDown()
+    leftLegUp()
+    leftLegDown()
+    rightArmDown()
+    rightLegUp()
+    rightLegDown()
+    fabulize()
+    defabulize()
+}
+
+botDance()
+
+
+
+
+setBotTitle("Bop o Pop")
+setBotSubtitle("By Cristian Posadas")
+
+
+
+
+
+
+
+
+
 
 
 
