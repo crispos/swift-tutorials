@@ -19,14 +19,6 @@ let wholeNumber = 2
 //:\
 //: You can‘t mix and match `Double` and `Int` types in Swift because of type safety.
 
-/*:
- > The `Double` type is so called because it refers to a “Double-precision floating point” number. A `Float` type also refers to a number with a decimal point, but the default `Double` is twice as precise.\
- > \
- > Below is an example of precision in floating point numbers. Why would you ever want to use less precise decimal numbers? One reason: if you have a huge amount of data, the `Float` type will save space because it occupies half as much memory. If your calculations only require accuracy to the nearest hundredth, then there's no reason to store all those extra digits. Swift's default is `Double` because typical programs don't work with enough numeric data to cause issues with memory, and more accuracy makes your code less prone to subtle errors.\
- > \
- > (On page 8 you'll explore the syntax of `let doublePi: Double`.)
- */
-
 let doublePi: Double = 3.141592653589793238462643383279
 let floatPi: Float = 3.141592653589793238462643383279
 
