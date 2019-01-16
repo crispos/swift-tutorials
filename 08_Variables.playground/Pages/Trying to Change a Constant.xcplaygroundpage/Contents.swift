@@ -1,12 +1,9 @@
-/*:
- ## Trying to Change a Constant
- 
- What happens if you try to assign a new value to a constant?
- 
- As you can see below, this is considered an error. The error is “Cannot assign to value: 'name' is a 'let' constant”. Now that you know more about what `let` and _constant_ mean, this error makes sense.
-*/
-let name = "Johnny"
-name = "John"
+let name = "John"
+print(name)
+
+
+
+
 /*:
  The error in the gutter looks a little different than normal.
  
