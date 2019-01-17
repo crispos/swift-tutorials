@@ -5,8 +5,36 @@
  
  Here is an approximate value of pi:
 */
+import Foundation
+
+
+let diameter = 2
+// make whole number a decimal.
+
+
+
+
 let pi = 3.14159265359
-//: - callout(Exercise): Write a program to calculate the circumference of a circle with a diameter of 2. Create a constant to hold the diameter. What type will the constant need to be? 
+pi * Double(diameter)
+// converts parameter into a double
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

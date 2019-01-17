@@ -8,7 +8,7 @@
  Uncomment the line below to try to set `favoriteThing` to the value `42`:
 */
 var favoriteThing = "42"
-"
+
 
 
 

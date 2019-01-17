@@ -19,11 +19,17 @@ let wholeNumber = 2
 //:\
 //: You can‘t mix and match `Double` and `Int` types in Swift because of type safety.
 
-let doublePi: Double = 3.141592653589793238462643383279
-let floatPi: Float = 3.141592653589793238462643383279
+let doublePi: Double = 3
+let floatPi: Float = 3
 
-doublePi
+
+
+
 floatPi
+
+
+
+
 //: Next, find out another way Swift decides on types.\
 //:\
 //: [Previous](@previous)  |  page 6 of 13  |  [Next: Type Inference from Assignment](@next)
