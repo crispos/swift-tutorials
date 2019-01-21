@@ -19,8 +19,8 @@
 func printHello(to name: String) {
     print("Hello " + name)
 }
-printHello(to: "Chris")
-printHello(to: "Johnny")
+printHello(to: "Cristian")
+printHello(to: "Erik")
 /*:
  The parameter has been named twice. You see the first name when you call it and you use the second name inside the body of the function.
  

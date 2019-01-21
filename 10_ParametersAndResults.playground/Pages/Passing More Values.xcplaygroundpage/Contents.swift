@@ -19,7 +19,7 @@ hello(firstName: "John", lastName: "Snow")
 //: - Experiment: Call the function a few more times with the names of your favorite celebrities. Note how autocompletion tells you about both parameters and how you can use the Tab key to move to the next argument.
 hello(firstName: "Tom", lastName: "Brady")
 hello(firstName: "James", lastName: "Franco")
-hello(firstName: "Lebron, lastName: "James")
+hello(firstName: "Lebron", lastName: "James")
 
 //: Get some more practice with this sort of function on the next page.
 //:
