@@ -25,13 +25,3 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
-func printGetTheFirstLetter(of: String) {
-    print("Get the first letter of " + of)
-}
-printGetTheFirstLetter(of: "Swift")
-
-
-
-
-
-

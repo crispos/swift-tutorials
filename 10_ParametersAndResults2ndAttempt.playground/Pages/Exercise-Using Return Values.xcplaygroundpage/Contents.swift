@@ -9,6 +9,7 @@ func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multiple
     let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
     print(total)
 }
+
 //: - callout(Exercise):Update the `impossibleBeliefsCount` function so that instead of printing the value, it returns it as an `Int`.
 //:
 //: `impossibleThingsPhrase` creates a phrase using string interpolation:
@@ -22,7 +23,7 @@ func impossibleThingsPhrase() -> String {
 //: Now you have two functions that take parameters and return values.
 //: - callout(Exercise): Call `impossibleBeliefsCount` and store the result in a constant.\
 //:Call `impossibleThingsPhrase`, passing in the result of `impossibleBeliefsCount` as one of the arguments.
-impossibleBeliefsCount 
+
 
 
 
