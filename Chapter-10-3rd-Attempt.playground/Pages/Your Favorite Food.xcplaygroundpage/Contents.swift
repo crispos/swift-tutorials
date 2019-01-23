@@ -11,7 +11,27 @@
  `printFavorite(food: "cheese")`\
  _Hint: You can go back to the previous page to check on how to define a function with a parameter._
 */
+func favoriteFood(name: String) {
+    print("my favorite food is " + name)
+}
+favoriteFood(name: "Tacos")
 
+func favoriteVideoGame(name: String) {
+    print("My favorite video game is " + name)
+}
+favoriteVideoGame(name: "Halo")
+
+func favoriteNflTeam(name: String) {
+    print("My favorite nfl team is the " + name)
+}
+
+favoriteNflTeam(name: "Patriots")
+
+func favoriteSandWhich(name: String) {
+    print("my favorite sandwhich is " + name)
+    
+}
+favoriteSandWhich(name: "Italian")
 
 
 

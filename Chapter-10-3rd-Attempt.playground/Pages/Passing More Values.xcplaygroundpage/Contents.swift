@@ -16,7 +16,14 @@ func hello(firstName: String, lastName: String) {
 */
 hello(firstName: "Johnny", lastName: "Appleseed")
 hello(firstName: "John", lastName: "Snow")
+hello(firstName: "Jay", lastName: "Cole")
 //: - Experiment: Call the function a few more times with the names of your favorite celebrities. Note how autocompletion tells you about both parameters and how you can use the Tab key to move to the next argument.
+func myName(firstName: String, lastName: String) {
+    print("Hello my name is " + firstName, lastName)
+    
+}
+myName(firstName: "Cristian" , lastName: "Posadas")
+
 
 
 

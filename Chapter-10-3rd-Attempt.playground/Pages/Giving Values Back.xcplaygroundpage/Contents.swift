@@ -13,6 +13,17 @@
  \
  Remember that `->` is used to say that a function returns a value.
 */
+func makeFavorite(categoryOfThing: String , favorite: String) -> String {
+    let sentence = "My favorite \(categoryOfThing) is \(favorite)"
+    return sentence
+    
+}
+makeFavorite(categoryOfThing: "restaurant", favorite: "Fogo De Chao")
+
+let myFavoriteRestaurant = makeFavorite(categoryOfThing:"restaurant", favorite: "Fogo")
+
+
+
 
 
 

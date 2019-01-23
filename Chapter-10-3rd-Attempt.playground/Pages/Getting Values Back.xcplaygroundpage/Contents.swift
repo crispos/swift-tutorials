@@ -23,10 +23,14 @@ spaceAvailableMessage(eachVideoDuration: 10, numberOfVideos: 50)
 //: > Your function can have multiple parameters, but it can only return **one** value.
 //:
 //: The value that a function returns is just like any other. It can be assigned to a variable or a constant and can be used for other work. Variables and constants can also be used as the arguments:
-let desiredVideoDuration = 40
-let holidayVideoCount = 100
-let videoMessage = spaceAvailableMessage(eachVideoDuration: desiredVideoDuration, numberOfVideos: holidayVideoCount)
-let namedVideoMessage = "Hey Micah! \(videoMessage)"
+func namedMessage() -> String {
+    let desiredVideoDuration = 40
+    let holidayVideoCount = 100
+    let videoMessage = spaceAvailableMessage(eachVideoDuration: desiredVideoDuration, numberOfVideos: holidayVideoCount)
+    let namedVideoMessage = "Hey Micah! \(videoMessage)"
+    return namedVideoMessage
+}
+
 
 
 //: Try making your own function that returns a value.
