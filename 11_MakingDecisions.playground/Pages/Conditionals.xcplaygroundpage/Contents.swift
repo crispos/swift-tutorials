@@ -10,15 +10,16 @@
  
  The code is similar to how you’d write it in prose:
 */
-let videoLength = 3
+let videoLength = 8
 
 if videoLength < 5 {
-    "If I blinked, I'd miss it!"
+    "it was too short"
 }
 
 if videoLength >= 5 {
-    "That's lovely."
+    "it was very nice."
 }
+
 /*:
  
  This is called an _if statement_. It works like this:

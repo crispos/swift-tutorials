@@ -4,6 +4,7 @@
  Come to grips with the if statement by rewriting the following comments in code form.
 */
 let a = 20
+
 let b = 30
 let c = 20
 
