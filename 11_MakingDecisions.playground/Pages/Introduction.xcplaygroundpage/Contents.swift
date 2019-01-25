@@ -6,7 +6,7 @@
  Consider the string interpolations you learned about. You had to perform a calculation and show the result in a string, something like this:
  */
 
-let videoLength = 3
+let videoLength = 2346264
 let videoLengthTooShortReaction = "If I blinked, I'd miss it!"
 let videoReasonableLengthReaction = "That was lovely."
 let videoMessage = "Your video is \(videoLength) seconds long. \(videoLengthTooShortReaction)"

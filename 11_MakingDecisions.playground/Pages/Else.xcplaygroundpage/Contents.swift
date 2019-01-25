@@ -18,6 +18,17 @@ if videoLength < 10 {
 } else {
     "That's lovely."
 }
+
+
+let gameLength = 12
+
+if gameLength < 10 {
+    "what a quick game"
+} else {
+    "That game was a long one"
+}
+
+
 /*:
  This is called an _if/else statement_. It works like this:
  - `if`…
