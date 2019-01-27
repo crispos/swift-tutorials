@@ -20,8 +20,11 @@ currentLocation = "California"
  */
 // Assign a new value
 currentLocation = "Chicago"
+currentLocation = "San Francisco"
+
 
 print(currentLocation)
+
 
 /*:
  In most ways, constants and variables are the same:

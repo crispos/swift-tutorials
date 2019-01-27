@@ -17,6 +17,12 @@ openingLine(verb: "Row", noun: "Boat")
 
 
 
+func newSongLine(verb: String , noun: String) -> String {
+    let newLine = " \(verb) \(verb) make the \(noun) go faster."
+    return newLine
+    
+}
+newSongLine(verb: "push" , noun: "wheel")
 
 
 

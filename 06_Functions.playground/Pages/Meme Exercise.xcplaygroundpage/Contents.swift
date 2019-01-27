@@ -15,6 +15,16 @@ func magnolia() {
 }
 magnolia()
 
+func newDance () {
+    print("SLide to the left, slide to the right")
+    print("criss cross")
+}
+
+func name () {
+    print("Cristian")
+    print("Posadas")
+}
+name()
 
 
 

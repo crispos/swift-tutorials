@@ -20,6 +20,16 @@ var shoppingList = ""
     shoppingList += rice
 
 
+var newShoppingList = ""
+    newShoppingList += eggs
+    newShoppingList += newLine
+    newShoppingList += milk
+    newShoppingList += newLine
+    newShoppingList += cheese
+    newShoppingList += newLine
+    newShoppingList += bread
+
+
 
 
 

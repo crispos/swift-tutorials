@@ -17,6 +17,11 @@ func verseTwo () {
 happyBirthday()
 verseTwo()
 
+func newSong () {
+    print("Happy Happy Birthday")
+    print("Happy Birthday to you")
+}
+newSong()
 
 
 

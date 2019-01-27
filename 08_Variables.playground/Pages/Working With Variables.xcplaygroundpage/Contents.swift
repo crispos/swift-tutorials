@@ -21,10 +21,13 @@ print(score + 5)
 print(score)
 print(score + 3)
 print(score)
+print(score)
 
 //: But when a calculation is on the right-hand side of an assignment, the variable stores the calculation's result and takes on a brand new value:
 print(score = score + 5)
 print(score = score + 3)
+print(score = score + 2)
+
 /*:
  - experiment: What do you think the value of `score` would be after these lines? Try it and find out!
  
