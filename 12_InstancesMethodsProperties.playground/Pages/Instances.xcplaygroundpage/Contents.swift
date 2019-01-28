@@ -15,6 +15,7 @@ let hello = "hello"
 let aDifferentHello = "hello"
 
 
+
 /*: 
  
 You’ve seen that the type of an instance determines what kind of data it contains and how you can use it in code.
