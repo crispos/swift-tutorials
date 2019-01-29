@@ -20,6 +20,7 @@ if videoLength >= 5 {
     "it was very nice."
 }
 
+
 /*:
  
  This is called an _if statement_. It works like this:

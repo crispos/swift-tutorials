@@ -14,6 +14,7 @@ if videoLength < 5 {
 } else {
     "That was lovely."
 }
+
 /*:
  Using `else if` lets you add another conditional statement, which is only checked if the first conditional is `false`. If the `else if` conditional is also `false`, then the code after the final `else` is executed.
  - experiment: Change the value of `videoLength` and trace the flow of the code through the conditionals.
