@@ -23,6 +23,7 @@ something.isEmpty
 
 let nothing = ""
 nothing.isEmpty
+
 /*: 
  The same type safety rules apply for properties as with methods:
  

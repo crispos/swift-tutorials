@@ -6,7 +6,7 @@
  Here are two string instances:
 */
 let introduction = "It was a dark and stormy night"
-let alternateIntroduction = "Once upon a time"
+let alternateIntroduction = "Once upon a time" 
 /*:
  It’s often useful to know if a string begins with another string. The method `hasPrefix()` can answer this question.
  
@@ -23,6 +23,8 @@ introduction.hasPrefix("It wasn't")
 
 alternateIntroduction.hasPrefix("It was")
 alternateIntroduction.hasPrefix("It wasn't")
+
+
 
 /*:
  This is known as calling a method _on_ the instance. You’ve called `hasPrefix()` on `introduction`.

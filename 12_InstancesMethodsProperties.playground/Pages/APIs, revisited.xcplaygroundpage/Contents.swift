@@ -14,7 +14,15 @@
 */
 let example = "It was the best of times"
 // Practice here by typing . after "example":
-example
+example.isEmpty
+example.hasPrefix(<#T##prefix: String##String#>)
+example.hasSuffix(<#T##suffix: String##String#>)
+
+
+
+
+
+
 
 
 
