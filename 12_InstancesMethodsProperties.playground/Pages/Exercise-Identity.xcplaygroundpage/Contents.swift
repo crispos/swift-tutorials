@@ -11,9 +11,21 @@ Check the values of `myPlans` and `friendPlans`. Are they the same or different?
  */
 // Create your variables here:
 
+var myPlans = "shopping"
+var friendsPlans = myPlans
+
+
+
+
 
 
 // Update `myPlans` here:
+
+myPlans + " running"
+
+myPlans
+friendsPlans
+
 
 
 
@@ -24,6 +36,26 @@ Check the values of `myPlans` and `friendPlans`. Are they the same or different?
 Call the `addDance` function on `myPlans`, and assign the result to `friendPlans`.
  */
 // Define and call your function here:
+
+func addDance(str :String) -> String {
+    let phrase = " now we dance dance!"
+    return str + phrase
+}
+
+addDance(str: friendsPlans)
+
+
+
+
+
+
+
+import Foundation
+let rightNow = Date()
+rightNow.addingTimeInterval(1970)
+
+
+
 
 
 

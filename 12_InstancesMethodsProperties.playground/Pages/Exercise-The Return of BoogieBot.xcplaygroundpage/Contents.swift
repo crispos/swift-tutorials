@@ -29,12 +29,15 @@ leftBot.leftArmUp()
 leftBot.leftArmDown()
 leftBot.rightLegUp()
 leftBot.rightLegDown()
+leftBot.defabulize()
+
 
 rightBot.fabulize()
 rightBot.shakeItLeft()
 rightBot.shakeItCenter()
 rightBot.leftLegUp()
 rightBot.leftLegDown()
+rightBot.defabulize()
 
 
 

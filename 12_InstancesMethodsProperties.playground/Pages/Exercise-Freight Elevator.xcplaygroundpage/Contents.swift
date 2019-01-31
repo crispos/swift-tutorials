@@ -26,6 +26,7 @@ var newRope = TreehousePulley(weightCapacity: 2000)
 
 
 
+
 /*:
  - callout(Exercise):
  Use the `TreehousePulley` type's `addLoadToBasket` method to add the items you defined above. Add three of the lightest item, two of the middle-weight item, and one of the heaviest item. Add the items to the lightweight pulley first, using the `canHandleAdditionalLoad` method to check whether the item would overload the pulley, then move on to your stronger pulley when the first is fully loaded.\
@@ -33,3 +34,11 @@ var newRope = TreehousePulley(weightCapacity: 2000)
 
 [Previous](@previous)  |  page 16 of 17  |  [Next: Exercise: Identity](@next)
  */
+ricketyRope.addLoadToBasket(loadWeight: foodBag)
+newRope.addLoadToBasket(loadWeight: gameBag)
+
+
+
+
+
+

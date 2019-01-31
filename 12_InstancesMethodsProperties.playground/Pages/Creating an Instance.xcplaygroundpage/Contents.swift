@@ -22,6 +22,13 @@ let falseBool = Bool()
 let zero = Int()
 //: You’ll often want to provide more information when you create an instance. Many types have initializers with parameters to let you do this:
 let oneHourLater = Date(timeIntervalSinceNow: 3600)
+
+func answer(num1: Int , num2: Int) -> Int {
+    let problem = num1 + num2
+    return problem
+    }
+answer(num1: 12, num2: 10)
+
 /*:
  This initializer gives you a `Date` that is a number of seconds from the current time.
  
