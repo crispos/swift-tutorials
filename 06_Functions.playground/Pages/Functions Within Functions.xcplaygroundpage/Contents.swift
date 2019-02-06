@@ -25,6 +25,7 @@ func verseOne() {
 verseOne()
 
 
+
 /*: 
   - callout(Exercise): Write a function for an alternate second verse of the song using the laughing submarine function below.
 */
