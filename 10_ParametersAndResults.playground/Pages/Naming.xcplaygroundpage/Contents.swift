@@ -32,6 +32,11 @@ printGetTheFirstLetter(of: "Swift")
 
 
 
+func fizzBuzz(value:Int) {
+
+}
+
+
 
 
 
