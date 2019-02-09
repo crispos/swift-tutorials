@@ -17,8 +17,6 @@ func responseTo(question: String) -> String {
     
 }
 
-        
-
 
 //: 👇These answers should be “Why, hello there!”
 responseTo(question: "Hello there")
