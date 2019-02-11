@@ -21,6 +21,7 @@ let devices = ["iPhone", "iPad", "iPod", "iMac"]
  */
 // Define highScores array below
 
+let highScores = ["12", "15", "18", "22", "25", "19", "20"]
 /*:
 
  
