@@ -6,9 +6,9 @@
  Think of another real-world object and its properties. Make up some actions or behaviors that the object might be able to perform. Write them all in plain English first in a comment:
  */
  // Add your English-language description of the type here. Make sure to add // before each line of your comment description.
- //
- //
- //
+ // album
+ // tracks
+// release date
 
 /*:
  - callout(Exercise):
@@ -17,9 +17,24 @@
  */
 // Add your own struct here:
 
+struct Track {
+    var name: String
+    var duration: Double
+}
+
+struct Album {
+    var tracks: [Track]
+    let artist: String
+    let releaseDate: String
+}
 
 
+let magnolia = Track(name: "Magnolia", duration: 3.4)
+let letItGo = Track(name: "Let It Go", duration: 3.2)
 
+var playboiCarti = Album(tracks: [magnolia,letItGo], artist: "Carti", releaseDate: "2/23/18")
+
+playboiCarti.tracks
 
 
 /*:
@@ -51,12 +66,16 @@ struct TrainingShoe {
     }
 }
 
+
+
 // Create an instance of the placeholder type
 let newLaces = Shoelaces()
 
 // Use the instance of the placeholder type to create an instance of your new type
 let newShoe = TrainingShoe(size: 39, isTied: true, laces: newLaces)
+newShoe.warnAboutLaces()
 
+newShoe.size
 
 
 
