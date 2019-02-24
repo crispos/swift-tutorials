@@ -9,7 +9,9 @@
  
 */
 let partNumber = 3.2
-let wholeNumber = 2
+let wholeNumber = 2.0
+partNumber + wholeNumber
+
 /*:
  You can always find out which type Swift inferred by holding down Option and clicking on the identifier:
  
