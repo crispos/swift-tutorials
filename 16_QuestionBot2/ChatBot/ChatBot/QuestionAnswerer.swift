@@ -11,7 +11,6 @@ struct QuestionAnswerer {
             return "To the North!"
         } else {
             let defaultNumber = question.count % 3
-            
             if defaultNumber == 0 {
                 return "That really depends"
             } else if defaultNumber == 1 {

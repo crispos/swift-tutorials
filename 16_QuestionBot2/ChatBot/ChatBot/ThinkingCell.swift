@@ -4,6 +4,7 @@ import UIKit
 class ThinkingCell: UITableViewCell {
 
     @IBOutlet weak var thinkingImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         thinkingImage.animationImages = (1...3).map {
